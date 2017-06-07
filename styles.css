@@ -1,0 +1,10 @@
+/* use margin and padding
+use at least one of selectors : element, class,id
+avoid adding HTML element for visual effect
+Use document-level and inline styles sparingly, */
+
+p {
+    background-color: lightblue;
+    margin: 200px;
+    padding: 50px;
+}
