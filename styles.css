@@ -3,8 +3,18 @@ use at least one of selectors : element, class,id
 avoid adding HTML element for visual effect
 Use document-level and inline styles sparingly, */
 
-p {
+ /*p {
+    font: blue;
+    font-size: 2em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-style: solid red;
     background-color: lightblue;
     margin: 200px;
     padding: 50px;
+} */
+
+.img {
+    margin: 20px;
+    padding: 40px;
+    
 }
