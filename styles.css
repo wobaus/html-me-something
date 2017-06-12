@@ -3,24 +3,68 @@ use at least one of selectors : element, class,id
 avoid adding HTML element for visual effect
 Use document-level and inline styles sparingly, */
 
+body {
+    background-color: none;
+}
+h1 {
+    text-align: center;
+    color: grey;
+    font-family: cursive;
+    font-size : 3em;
+
+}
 p {
-   align-content: center;
+   text-align: center;
    border-style: solid red;
+   font: verdana;
 
 } 
 
-.img {
-    border-style: 5px solid red;
-    align-content: center;
-    margin: 20px;
-    padding: 40px;
-    height: 600px;
-    width: 700px;
+main p{
+    text-align: left
 }
 
-#vegas {
-    padding: 100px;
+.img {
+    /*display: block;
+    margin: auto;
+    width: 40%; */ /*how to make center an image */
+    padding: 10px;
     height: 300px;
     width: 400px;
-   
+    background: black;
+    margin: 10px;
+
+}
+
+.floating-box {
+    float: left;
+    width: 150px;
+    height: 290px;
+    margin: 10px;
+    border: 5px dotted black;  
+    padding: 10px;
+}
+
+#floating-box3 {
+    float: left;
+    width: 150px;
+    height: 980px;
+    margin: 10px;
+    border: 5px dotted black;  
+    padding: 10px;
+}
+
+#floating-box2 {
+    float: left;
+    width: 150px;
+    height: 640px;
+    margin: 10px;
+    border: 5px dotted black;  
+    padding: 10px;
+}
+
+ol li {
+    color: #808080
+;
+   /* text-align: center;*/
 }
