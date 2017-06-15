@@ -13,17 +13,23 @@ h1 {
     font-size : 3em;
 
 }
-p {
-   text-align: center;
-   border-style: solid red;
-   font: verdana;
 
-} 
-
-main p{
-    text-align: left
+header p {
+    text-align: center;
+    font-size: .8em;
+    font-family: cursive;
 }
 
+ /*p::before {
+    content:img src="images/FLpanamapeachfirstcamp.jpg";
+}
+*/
+/*main p{
+    width: 11em; 
+    border: 3px solid #000000;
+    word-wrap: break-word
+}
+*/
 .img {
     /*display: block;
     margin: auto;
@@ -36,7 +42,7 @@ main p{
 
 }
 
-.floating-box {
+ .floating-box {
     float: left;
     width: 150px;
     height: 290px;
